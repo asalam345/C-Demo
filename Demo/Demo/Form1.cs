@@ -16,5 +16,11 @@ namespace Demo
 		{
 			InitializeComponent();
 		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			//String name = new String({ });
+			//cbName.AutoCompleteSuggestMode = AutoCompleteSuggestMode.Contains;
+		}
 	}
 }
