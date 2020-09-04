@@ -45,12 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dbs\Connections.cs" />
+    <Compile Include="Dbs\User.cs" />
     <Compile Include="Forms\frmUserEntry.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmUserEntry.Designer.cs">
       <DependentUpon>frmUserEntry.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\MUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmUserEntry.resx">
@@ -78,9 +81,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dbs\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
